@@ -1,0 +1,27 @@
+.select-asset-control-container {
+    width: 100%;
+}
+
+.select-asset-control-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 6px 0;
+}
+
+.select-asset-control-select {
+    position: relative;
+}
+
+.select-asset-control-right-block {
+    position: relative;
+}
+
+.select-asset-control-icon-button {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* transform: translate(-50%, 50%); */
+}

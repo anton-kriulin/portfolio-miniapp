@@ -1,0 +1,101 @@
+.transaction-container {
+    display: flex;
+    background-color: var(--tg-theme-bg-color);
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.transaction-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transaction-card-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 6px;
+}
+
+.transaction-card-comment-icon-box {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+/*     margin: 6px; */
+}
+
+.transaction-card-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+/*     justify-items: space-between;
+    align-items: center;
+    padding: 0 0 0 0; */
+}
+
+.transaction-card-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    align-content: center;
+    padding: 3px;
+}
+
+.transaction-card-row-left /*, .transaction-card-row-right */ {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.transaction-card-row-right {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.transaction-card-row-column-logo {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 247, 241);
+    border-radius: 4px;
+}
+.transaction-card-row-column-logo img {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.transaction-card-row-column-left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 3px;
+/*     background-color: aquamarine; */
+}
+
+.transaction-card-user-asset-name {
+    padding: 0 3px;
+}
+
+.transaction-card-row-column-right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 0 3px ;
+}
+.transaction-card-user-asset-value-income {
+    color: green
+}

@@ -1,0 +1,98 @@
+.header {
+	top: 0px;
+	width: 100%;
+	height: 64px;
+	border-radius: 4px;
+	background-color: #a4b4a3;
+	position: sticky;
+	text-align: center;
+	z-index:2;
+}
+
+.header-row {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0 6px;
+}
+
+.header-search {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.header-row-left {
+	min-width: 60px;
+	height: 100%;
+	align-content: center;
+	padding: 3px;
+}
+
+.header-row-center {
+	left: 50%;
+	width: auto;
+	position: absolute;
+	align-content: center;
+	justify-content: center;
+	padding: 3px;
+	transform: translate(-50%, 0);
+}
+
+.header-row-right {
+	min-width: 60px;
+	height: 100%;
+	align-content: center;
+	padding: 3px;
+}
+
+.header-coin {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-coin-logo {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	color: #000;
+	background-color: rgb(241, 247, 241);
+	border-radius: 8px;
+	font-size: 17px;
+	line-height: 17px;
+}
+
+.header-coin-ticker {
+	color: #252928;
+	font-size: large;
+	font-weight: 600;
+	padding: 6px;
+}
+
+.logo {
+	font-size: 30px;
+	color: #252928;
+	font-family: "Noto";
+}
+
+.portfolio-logo {
+	font-size: 30px;
+	color: #252928;
+	font-family: "Bruno";
+}
+
+.portfolio-logo-green {
+	font-size: 30px;
+	color: #089981;
+	font-family: "Bruno";
+}
+

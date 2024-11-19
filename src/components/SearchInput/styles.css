@@ -1,0 +1,24 @@
+.search-row {
+    width: 100%;
+    position: relative;
+}
+
+.search-row-search {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.search-row-input {
+
+}
+
+.search-row-input input {
+    padding: 0 40px;
+}
+
+.search-row-clear {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}

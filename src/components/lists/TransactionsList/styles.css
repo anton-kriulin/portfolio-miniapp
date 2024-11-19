@@ -1,0 +1,5 @@
+.transactions-list-column {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}

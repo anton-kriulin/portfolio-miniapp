@@ -1,0 +1,44 @@
+.controls-container {
+    width: 100%;
+}
+.controls {
+    width: 100%;
+    height: 40px;
+    background-color: var(--tg-theme-bg-color);
+    border-radius: 4px;
+    padding: 0 3px;
+}
+.controls .control {
+    padding: 6px;
+}
+
+.controls .selected-control {
+    padding: 6px;
+    background-color: var(--portfolio-secondary-green);
+    border-radius: 4px;
+}
+
+.controls-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.controls-button {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tg-theme-secondary-bg-color);
+    padding: 12px;
+    border-radius: 4px;
+    font-size: medium;
+}
+
+.controls-button-icon {
+    display: flex;
+    justify-content: center;
+}

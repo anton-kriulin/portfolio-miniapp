@@ -1,0 +1,86 @@
+.assets-list-column {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.assets-list-row {
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+}
+
+.assets-list-aggregated-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.assets-list-cell {
+	padding: 5px;
+	align-content: center;
+}
+	
+.assets-list-rank {
+	text-align: end;
+	width: 60px;
+}
+
+.assets-list-show-more {
+	min-width: 26px;
+	width: 6%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	text-align: center;
+}
+
+.assets-list-user-asset {
+	width: 100%;
+}
+
+.assets-list-name {
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	text-align: start;
+	align-content: center;
+}
+		
+.assets-list-price {
+	text-align: end;
+	width: 45%;
+}
+.assets-list-delta {
+	text-align: center;
+	width: 35%;
+}
+
+.assets-list-block {
+	width: 100%;
+	display: flex;
+	text-align: start;
+	align-content: center;
+}
+
+/* .assets-list-logo {
+	min-width: 30px;
+	min-height: 30px;
+	display: flex;
+	align-items: center;
+} */
+
+.assets-list-pl {
+	width: 35%;
+	text-align: center;
+}
+.assets-list-valuation {
+	width: 45%;
+	text-align: end;
+}

@@ -1,0 +1,44 @@
+.portfolio-chart-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.portfolio-chart-balance {
+    height: 86px;
+    padding-top: 12px;
+    font-size: 1.5rem;
+    display: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.portfolio-chart-balance-row {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-chart-balance-green {
+    color: var(--portfolio-primary-green);
+}
+
+.portfolio-chart-balance-red {
+    color: var(--portfolio-primary-red);
+}
+
+.portfolio-chart-controls-container {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-chart-controls {
+    width: 80%;
+    height: 40px;
+    background-color: rgb(126, 141, 127);
+    border-radius: 4px;
+}
+
+.portfolio-chart-controls .selected{
+    background-color: rgb(94, 116, 96);
+    border-radius: 4px;
+}

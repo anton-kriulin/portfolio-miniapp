@@ -1,0 +1,85 @@
+.asset-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.asset-details-name {
+    font-size:32px;
+}
+
+.asset-details-price {
+    font-size:22px;
+}
+
+.asset-details-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.asset-details-rank {
+    align-content: center;
+}
+
+.asset-details-delta-day {
+    align-content: center;
+}
+
+.asset-details-chart {
+    height: 180px;
+    color: var(--tg-theme-accent-text-color);
+}
+
+/* .asset-details-chart-settings {
+} */
+
+.asset-details-chart-controls {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.asset-details-chart-period-controls {
+    width: 65%;
+    margin: 0 3px 3px 0;
+}
+.asset-details-chart-type-controls {
+    width: 35%;
+    margin: 0 3px 3px 0;
+}
+/* .asset-details-chart-period-controls .control {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.asset-details-chart-period-controls .selected-control {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgb(94, 116, 96);
+    border-radius: 4px;
+}
+
+.asset-details-chart-type-controls {
+    margin-bottom: 6px;
+    width: 40%;
+    height: 40px;
+    background-color: rgb(126, 141, 127);
+    border-radius: 4px;
+}
+.asset-details-chart-type-controls .control {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.asset-details-chart-type-controls .selected-control {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgb(94, 116, 96);
+    border-radius: 4px;
+} */
+
+.asset-details-balance {
+    background-color: var(--tg-theme-section-bg-color);
+    border-radius: 4px;
+    padding: 12px;
+}
+

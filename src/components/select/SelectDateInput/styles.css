@@ -1,0 +1,12 @@
+.date-input-container {
+    position: relative;
+}
+
+.date-input-right-block {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* transform: translate(-50%, 50%); */
+}

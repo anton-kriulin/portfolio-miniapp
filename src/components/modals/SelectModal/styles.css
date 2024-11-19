@@ -1,0 +1,25 @@
+.select-asset-modal-controls {
+    background-color: var(--tg-theme-secondary-bg-color) !important;
+}
+
+.select-asset-modal-workarea {
+    padding: 6px;
+    height: 70vh;
+}
+
+.select-network-modal-workarea {
+    max-height: 70vh;
+}
+
+.select-modal-input {
+    position: relative;
+}
+
+.select-modal-input-right-block {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* transform: translate(-50%, 50%); */
+}

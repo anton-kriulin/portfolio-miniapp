@@ -1,0 +1,67 @@
+.user-asset-row {
+    width: 100%;
+    display: flex;
+}
+
+.user-asset-row-cell {
+    padding: 6px;
+    align-content: center;
+}
+
+.user-asset-row-block {
+    display: flex;
+    text-align: start;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.user-asset-row-logo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 247, 241);
+    border-radius: 4px;
+}
+
+.user-asset-row-logo img {
+    border-radius: 4px;
+}
+
+.user-asset-row-title {
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.25;
+    padding: 0 6px;
+}
+
+.user-asset-row-title-name {
+    font-size: 14px;
+    max-width: 128px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-asset-row-title-ticker {
+    max-width: 128px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-asset-row-pl {
+    width: 35%;
+    text-align: center;
+    justify-items: center;
+}
+
+.user-asset-row-pl-profit, .user-asset-row-pl-profit-per-cent {
+    text-align: center;
+}
+
+.user-asset-row-value {
+    width: 45%;
+    text-align: end;
+}

@@ -1,0 +1,68 @@
+.asset-row {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.asset-row-cell {
+    padding: 5px;
+    align-content: center;
+}
+
+.asset-row-cell-rank {
+    text-align: end;
+    justify-items: end;
+    width: 60px;
+}
+
+.asset-row-cell-titleblock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    align-content: center;
+    align-items: center;
+}
+
+.asset-row-cell-titleblock-logo {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: rgb(241, 247, 241);
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.asset-row-cell-titleblock-logo img {
+    border-radius: 8px;
+}
+
+.asset-row-cell-titleblock-name {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 6px;
+}
+
+.asset-row-cell-titleblock-name-text {
+    font-size: 14px;
+    max-width: 8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.asset-row-cell-delta {
+    text-align: center;
+    width: 35%;
+}
+
+.asset-row-cell-price {
+    flex-direction: column;
+    text-align: end;
+    width: 45%;
+}

@@ -1,0 +1,101 @@
+.edit-transaction {
+}
+
+.edit-transaction-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* .add-user-asset-modal-header-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+} */
+
+.edit-transaction-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: center;
+    padding: 6px;
+}
+
+.edit-transaction-block {
+    order: 0;
+    background-color: var(--tg-theme-bg-color);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.edit-transaction-block-select-asset {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* .add-user-asset-modal-header-row-close-button {
+    justify-content: end;
+} */
+
+/* .add-user-asset-input-amount {
+}
+
+.add-user-asset-input-price {
+}
+ */
+.edit-transaction-row-amount {
+    width: 100%;
+    /* padding-right: 6px; */
+    position: relative;
+    /* direction: rtl; */
+}
+
+.edit-transaction-row-sign {
+    top: 50%;
+    right: 12px;
+    color: var(--tg-theme-accent-text-color);
+    translate: 0 -50%;
+    position: absolute;
+    font-size: large;
+}
+
+.edit-transaction-row-price {
+    width: 100%;
+    position: relative;
+    padding-left: 6px;
+    /* direction: rtl; */
+}
+
+.edit-transaction-row-price-label {
+    color: var(--tg-theme-accent-text-color);
+    font-size: large;
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    translate: 0 -50%;
+    padding-left: 6px;
+}
+
+.edit-transaction-row-comment {
+    width: 100%;
+}
+
+.edit-transaction-additional {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.edit-transaction-row-date {
+    width: 100%;
+    /* padding-left: 6px; */
+}
+
+.edit-transaction-select {
+    position: relative;
+    padding: 0 6px;
+}

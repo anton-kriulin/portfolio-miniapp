@@ -1,0 +1,11 @@
+.line-chart {
+    height: 180px;
+    padding-right: 22px;
+    color: var(--tg-theme-accent-text-color);
+}
+
+.line-chart-spinner {
+    height: 180px;
+    display: flex;
+    align-content: center;
+}
